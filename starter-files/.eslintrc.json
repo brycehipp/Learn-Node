@@ -1,0 +1,27 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "globals": {
+  },
+  "extends": ["airbnb-base", "prettier"],
+  "plugins": ["html", "prettier"],
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "rules": {
+    "no-console": "off",
+    "no-unused-vars": ["error", { "vars": "local" }],
+    "wrap-iife": ["error", "any"],
+    "func-names": "warn",
+    "no-underscore-dangle": "off",
+    "no-alert": "off",
+    "consistent-return": "off",
+    "object-curly-newline": ["error", { "consistent": true }],
+    "max-len": "off",
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-prototype-builtins": 0,
+    "prettier/prettier": "error"
+  }
+}
